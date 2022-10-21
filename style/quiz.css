@@ -1,0 +1,63 @@
+@import url("base.css");
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: white;
+    max-width: 700px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+main .question-number {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:40px;
+    height: 40px;
+    margin: 0 auto 20px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    background-color: #999b1b;
+    color:white;
+}
+
+main .question .text {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+
+main .question .answer {
+    border: 1px solid rgba(0, 0, 0, 0.51);
+    border-radius: 20px;
+    padding: 20px 40px;
+    margin: 20px 0;
+    font-weight: bold;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+main .answer:hover{
+    background-color:#BBBD5A
+}
+
+main .score {
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 10px 60px;
+}
+
+main .score-container button{
+    background-color:black;
+    color:white;
+    padding:10px 20px;
+    margin:20px 0 0 0!important;
+    font-size: 1.2rem;
+}

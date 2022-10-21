@@ -1,0 +1,21 @@
+@import url("base.css");
+
+body {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size: 6rem;
+    color: white;
+    font-weight: bold;
+    text-shadow: 5px 2px black;
+}
+
+a:hover {
+    scale: 1.05;
+    color: blueviolet
+}
